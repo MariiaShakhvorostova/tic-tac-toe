@@ -1,0 +1,33 @@
+.player-x-side,
+.player-o-side {
+  width: 45%;
+}
+
+.player-x-side p,
+.player-o-side p {
+  width: 300px;
+  height: 50px;
+}
+
+.img-cont {
+  width: 500px;
+  height: 50px;
+  border-radius: 8px 8px 0px 0px;
+  border: 1px solid rgba(69, 69, 69, 1);
+  position: relative;
+  top: 35px;
+}
+
+.player-x-img {
+  background-image: url("../src/assets/img/pl-x.png");
+  width: 98px;
+  height: 32px;
+  margin: 8px;
+}
+
+.player-o-img {
+  background-image: url("../src/assets/img/pl-0.png");
+  width: 98px;
+  height: 32px;
+  margin: 8px;
+}

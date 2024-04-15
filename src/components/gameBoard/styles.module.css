@@ -1,0 +1,16 @@
+.wrap {
+  width: 350px;
+  height: 350px;
+  background: rgba(49, 49, 49, 1);
+  padding: 15px 15px;
+  margin-left: 80px;
+  border-radius: 8px;
+}
+
+.game-board {
+  position: relative;
+  min-width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  background: rgba(49, 49, 49, 1);
+}
